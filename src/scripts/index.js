@@ -1,7 +1,5 @@
-import '../styles/index.scss';
+const moment = require("moment");
 
-if (process.env.NODE_ENV === 'development') {
-  require('../index.html');
-}
+console.log(moment().format());
 
 console.log('webpack starterkit');
