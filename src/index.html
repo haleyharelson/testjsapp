@@ -3,10 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+  <title>BOW TestApp</title>
+  <style>
+    th, td, p, input {
+        font:14px Verdana;
+    }
+    table, th, td 
+    {
+        border: solid 1px #DDD;
+        border-collapse: collapse;
+        padding: 2px 3px;
+        text-align: center;
+    }
+    th {
+        font-weight:bold;
+    }
+</style>
 </head>
 <body>
   <h1>webpack starter</h1>
   <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+
+<h2>Moment Date</h2>
+<div id="displayMoment"></div>
+<br>
+<br>
+<br>
+<input type="text" placeholder="User Lan ID" id="userLanId">
+<button type="button" onclick="getInputValue()" id="btn">GO</button>
+<br>
+<br>
+<br>
+<p id="showData"></p>
 </body>
 </html>
