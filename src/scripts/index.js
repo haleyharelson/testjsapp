@@ -1,3 +1,5 @@
+import '../styles/index.css';
+
 const moment = require("moment");
 
 console.log(moment().format());
